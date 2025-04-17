@@ -1,0 +1,3 @@
+sg.ncs.psc.common.encrypt.config.EncryptorAutoConfiguration
+sg.ncs.psc.common.encrypt.config.ApiDecryptAutoConfiguration
+

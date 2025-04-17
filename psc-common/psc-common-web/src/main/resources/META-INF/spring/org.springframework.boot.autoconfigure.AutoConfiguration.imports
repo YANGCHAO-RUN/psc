@@ -1,0 +1,5 @@
+sg.ncs.psc.common.web.config.CaptchaConfig
+sg.ncs.psc.common.web.config.FilterConfig
+sg.ncs.psc.common.web.config.I18nConfig
+sg.ncs.psc.common.web.config.ResourcesConfig
+sg.ncs.psc.common.web.config.UndertowConfig

@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>sg.ncs.psc</groupId>
+        <artifactId>psc-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>psc-pmo</artifactId>
+
+    <description>
+        pmo模块
+    </description>
+
+    <dependencies>
+
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-translation</artifactId>
+        </dependency>
+
+        <!-- OSS功能模块 -->
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-oss</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-log</artifactId>
+        </dependency>
+
+        <!-- excel-->
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-excel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>sg.ncs.psc</groupId>
+            <artifactId>psc-common-encrypt</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

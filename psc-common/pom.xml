@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>people-supply-chain</artifactId>
+        <groupId>sg.ncs.psc</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>psc-common-bom</module>
+        <module>psc-common-social</module>
+        <module>psc-common-core</module>
+        <module>psc-common-doc</module>
+        <module>psc-common-excel</module>
+        <module>psc-common-idempotent</module>
+        <module>psc-common-job</module>
+        <module>psc-common-log</module>
+        <module>psc-common-mail</module>
+        <module>psc-common-mybatis</module>
+        <module>psc-common-oss</module>
+        <module>psc-common-ratelimiter</module>
+        <module>psc-common-redis</module>
+        <module>psc-common-satoken</module>
+        <module>psc-common-security</module>
+        <module>psc-common-sms</module>
+        <module>psc-common-web</module>
+        <module>psc-common-translation</module>
+        <module>psc-common-sensitive</module>
+        <module>psc-common-json</module>
+        <module>psc-common-encrypt</module>
+        <module>psc-common-tenant</module>
+        <module>psc-common-websocket</module>
+        <module>psc-common-sse</module>
+        <module>psc-common-minio</module>
+    </modules>
+
+    <artifactId>psc-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>

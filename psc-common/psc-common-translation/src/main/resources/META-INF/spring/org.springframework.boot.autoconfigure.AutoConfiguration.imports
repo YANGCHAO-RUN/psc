@@ -1,0 +1,6 @@
+sg.ncs.psc.common.translation.config.TranslationConfig
+sg.ncs.psc.common.translation.core.impl.DeptNameTranslationImpl
+sg.ncs.psc.common.translation.core.impl.DictTypeTranslationImpl
+sg.ncs.psc.common.translation.core.impl.OssUrlTranslationImpl
+sg.ncs.psc.common.translation.core.impl.UserNameTranslationImpl
+sg.ncs.psc.common.translation.core.impl.NicknameTranslationImpl
